@@ -6,8 +6,8 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"
-	"gitlab.com/apernet/infra-devops/dba/rds-killmysql/awsgo"
-	"gitlab.com/apernet/infra-devops/dba/rds-killmysql/models"
+	"github.com/rsaldano/rds-killmysql/awsgo"
+	"github.com/rsaldano/rds-killmysql/models"
 )
 
 //GetSecret es la función que devuelve la password de Secret Manager

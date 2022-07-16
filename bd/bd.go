@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	_ "github.com/go-sql-driver/mysql"
-	"gitlab.com/apernet/infra-devops/dba/rds-killmysql/models"
+	"github.com/rsaldano/rds-killmysql/models"
 )
 
 func KillMySQL(claves models.SecretRDSJson, parametros models.DatosEntrada) {
